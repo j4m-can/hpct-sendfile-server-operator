@@ -1,0 +1,14 @@
+# Copyright 2022 Canonical Ltd.
+# See LICENSE file for licensing details.
+
+send-file:
+  description: Send file over relation
+  params:
+    filename:
+      description: Name of file to send.
+      type: string
+      default: ""
+  required: ["filename"]
+
+show-file:
+  description: Show file information in bucket in log.
